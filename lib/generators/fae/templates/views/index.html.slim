@@ -3,7 +3,7 @@
 == render 'fae/shared/index_header', title: @klass_humanized.pluralize.titleize
 
 main.content
-  table.<%= table_class %>
+  table.<%= table_class %>.fae-table
     thead
       tr
 <% if @has_position -%>

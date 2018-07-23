@@ -11,7 +11,7 @@ main.content
     = fae_filter_select :grouped_test, grouped_options: { 'Numbers' => [['one', 1], ['two', 2]], 'Letters' => [['The letter J', 'J'], ['The letter N', 'N']] }
     = fae_filter_select :grouped_association, collection: Aroma.all, grouped_by: :release
 
-  table
+  table.fae-table
     thead
       tr
         th.-image
