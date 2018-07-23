@@ -1,4 +1,4 @@
-table {
+table.fae-table {
   width: 100%;
   border: 1px solid $c-grey;
   border-collapse: separate;
@@ -9,7 +9,7 @@ table {
   }
 }
 
-tbody {
+.fae-table tbody {
   td {
     border-bottom: 1px solid $c-grey;
 
@@ -41,15 +41,15 @@ tbody {
   }
 }
 
-th,
-td {
+.fae-table th,
+.fae-table td {
   vertical-align: middle;
   font-size: 13px;
   text-align: left;
   line-height: 1.2;
 }
 
-th {
+.fae-table th {
   padding: 12px 10px;
   vertical-align: middle;
   font-weight: bold;
@@ -57,7 +57,7 @@ th {
   background: $c-table-th;
 }
 
-td {
+.fae-table td {
   padding: 8px 10px;
   background-color: $c-table-td;
 }
