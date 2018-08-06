@@ -171,12 +171,6 @@ Fae.navigation = {
     var sidebar_top_offset = (parseInt( $header.outerHeight(), 10) + 30) + 'px';
     $('#js-sidenav').css('padding-top', sidebar_top_offset );
 
-    $header.sticky({
-      placeholder: true,
-      perpetual_placeholder: true,
-      ignore_placeholder_offsets: true
-    });
-
     if (!just_headers) {
       $('#js-sidenav').sticky();
     }
