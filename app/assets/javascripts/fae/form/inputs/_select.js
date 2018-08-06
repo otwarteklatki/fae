@@ -30,7 +30,7 @@ Fae.form.select = {
       $('.ms-selection .custom-header').text( $instance.$selectionContainer.find($instance.elemsSelector).length + addedItemsStr);
     }
 
-    $('select').each(function(index, elm){
+    $('select.select').each(function(index, elm){
       var $this = $(this);
 
       if ($this.hasClass('multiselect')) {
